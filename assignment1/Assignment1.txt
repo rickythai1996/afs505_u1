@@ -1,0 +1,484 @@
+AFS 505 Homework Assignment 1
+
+55.3.1 and 55.3.3
+Last login: Tue Jan 14 16:59:54 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) chiefjoe-10-216-1-21:~ RickyThai$
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+
+55.5.1 and 55.5.3
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd
+(base) chiefjoe-10-216-1-21:~ RickyThai$ mkdir temp
+(base) chiefjoe-10-216-1-21:~ RickyThai$ mkdir temp/stuff
+(base) chiefjoe-10-216-1-21:~ RickyThai$ mkdir temp/stuff/things
+(base) chiefjoe-10-216-1-21:~ RickyThai$ mkdir -p temp/stuff/things/orange/apple/pear/grape
+(base) chiefjoe-10-216-1-21:~ RickyThai$ mkdir AFS505
+(base) chiefjoe-10-216-1-21:~ RickyThai$ mkdir AFS505/section 2
+
+55.6.1 and 55.6.3
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd stuff
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ pwd
+/Users/RickyThai/temp/stuff
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ cd things
+(base) chiefjoe-10-216-1-21:things RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things
+(base) chiefjoe-10-216-1-21:things RickyThai$ cd orange/
+(base) chiefjoe-10-216-1-21:orange RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange
+(base) chiefjoe-10-216-1-21:orange RickyThai$ cd apple/
+(base) chiefjoe-10-216-1-21:apple RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange/apple
+(base) chiefjoe-10-216-1-21:apple RickyThai$ cd pear/
+(base) chiefjoe-10-216-1-21:pear RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange/apple/pear
+(base) chiefjoe-10-216-1-21:pear RickyThai$ cd grape/
+(base) chiefjoe-10-216-1-21:grape RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange/apple/pear/grape
+(base) chiefjoe-10-216-1-21:grape RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:pear RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:apple RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange/apple
+(base) chiefjoe-10-216-1-21:apple RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:orange RickyThai$ cd..
+-bash: cd..: command not found
+(base) chiefjoe-10-216-1-21:orange RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange
+(base) chiefjoe-10-216-1-21:orange RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:things RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things
+(base) chiefjoe-10-216-1-21:things RickyThai$ cd ../../..
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd temp/stuff/things/orange/apple/pear/grape
+(base) chiefjoe-10-216-1-21:grape RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange/apple/pear/grape
+(base) chiefjoe-10-216-1-21:grape RickyThai$ cd ../../../../../../../
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+
+55.7.1 and 55.7.3
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ ls
+stuff
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd stuff
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ ls
+things
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ cd things
+(base) chiefjoe-10-216-1-21:things RickyThai$ ls
+orange
+(base) chiefjoe-10-216-1-21:things RickyThai$ cd orange
+(base) chiefjoe-10-216-1-21:orange RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange
+(base) chiefjoe-10-216-1-21:orange RickyThai$ ls
+apple
+(base) chiefjoe-10-216-1-21:orange RickyThai$ cd apple
+(base) chiefjoe-10-216-1-21:apple RickyThai$ ls
+pear
+(base) chiefjoe-10-216-1-21:apple RickyThai$ cd pear
+(base) chiefjoe-10-216-1-21:pear RickyThai$ ls
+grape
+(base) chiefjoe-10-216-1-21:pear RickyThai$ cd grape
+(base) chiefjoe-10-216-1-21:grape RickyThai$ ls
+(base) chiefjoe-10-216-1-21:grape RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:pear RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange/apple/pear
+(base) chiefjoe-10-216-1-21:pear RickyThai$ ls
+grape
+(base) chiefjoe-10-216-1-21:pear RickyThai$ cd ../../../
+(base) chiefjoe-10-216-1-21:things RickyThai$ ls
+orange
+(base) chiefjoe-10-216-1-21:things RickyThai$ cd ../../
+(base) chiefjoe-10-216-1-21:temp RickyThai$ ls
+stuff
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ ls stuff
+things
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:temp RickyThai$ ls
+stuff
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd stuff/things/orange/apple/pear/grape/
+(base) chiefjoe-10-216-1-21:grape RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:pear RickyThai$ rmdir grape
+(base) chiefjoe-10-216-1-21:pear RickyThai$ pw
+-bash: pw: command not found
+(base) chiefjoe-10-216-1-21:pear RickyThai$ pwd
+/Users/RickyThai/temp/stuff/things/orange/apple/pear
+(base) chiefjoe-10-216-1-21:pear RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:apple RickyThai$ rmdir pear
+(base) chiefjoe-10-216-1-21:apple RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:orange RickyThai$ ls
+apple
+(base) chiefjoe-10-216-1-21:orange RickyThai$ rmdir apple
+rmdir: apple: Directory not empty
+(base) chiefjoe-10-216-1-21:orange RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:things RickyThai$ ls
+orange
+(base) chiefjoe-10-216-1-21:things RickyThai$ rmdir orange
+rmdir: orange: Directory not empty
+(base) chiefjoe-10-216-1-21:things RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ ls
+things
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ rmdir things
+rmdir: things: Directory not empty
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ ls
+things
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ cd stuff
+-bash: cd: stuff: No such file or directory
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ pwd
+/Users/RickyThai/temp/stuff
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ cd stuff
+-bash: cd: stuff: No such file or directory
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ pwd
+/Users/RickyThai/temp/stuff
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ ls
+things
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ rmdir things
+rmdir: things: Directory not empty
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ ls
+things
+(base) chiefjoe-10-216-1-21:stuff RickyThai$ cd ..
+(base) chiefjoe-10-216-1-21:temp RickyThai$ ls
+stuff
+(base) chiefjoe-10-216-1-21:temp RickyThai$ rmdir stuff
+rmdir: stuff: Directory not empty
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:temp RickyThai$ ls
+stuff
+(base) chiefjoe-10-216-1-21:temp RickyThai$ cd
+(base) chiefjoe-10-216-1-21:~ RickyThai$ pwd
+/Users/RickyThai
+
+55.9.1 and 55.9.3
+(base) chiefjoe-10-216-1-21:~ RickyThai$ cd temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ ls
+stuff
+(base) chiefjoe-10-216-1-21:temp RickyThai$ mkdir -p i/like/icecream
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pushd i/like/icecream
+~/temp/i/like/icecream ~/temp
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ popd
+~/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pushd i/like
+~/temp/i/like ~/temp
+(base) chiefjoe-10-216-1-21:like RickyThai$ pwd
+/Users/RickyThai/temp/i/like
+(base) chiefjoe-10-216-1-21:like RickyThai$ pushd icecream
+~/temp/i/like/icecream ~/temp/i/like ~/temp
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ pwd
+/Users/RickyThai/temp/i/like/icecream
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ popd
+~/temp/i/like ~/temp
+(base) chiefjoe-10-216-1-21:like RickyThai$ pwd
+/Users/RickyThai/temp/i/like
+(base) chiefjoe-10-216-1-21:like RickyThai$ popd
+~/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pushd i/like/icecream
+~/temp/i/like/icecream ~/temp
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ pushd
+~/temp ~/temp/i/like/icecream
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) chiefjoe-10-216-1-21:temp RickyThai$ pushd
+~/temp/i/like/icecream ~/temp
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ owd
+-bash: owd: command not found
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ pwd
+/Users/RickyThai/temp/i/like/icecream
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ pwd
+/Users/RickyThai/temp/i/like/icecream
+
+55.10.1 and 55.10.3
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ touch iamcool.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+iamcool.txt
+
+55.11.1 and 55.11.3
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp iamcool.txt neat.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+iamcool.txt	neat.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp neat.txt awesome.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+awesome.txt	iamcool.txt	neat.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp awesome txt thefourthfile.txt
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp awesome.txt thefourthfile.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+awesome.txt		iamcool.txt		neat.txt		thefourthfile.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls something/
+ls: something/: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls something/
+ls: something/: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp -r something newplace
+cp: something: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls newplace/
+ls: newplace/: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp awesome.txt something/
+cp: directory something does not exist
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ mkdir something
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp awesome.txt something/
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+awesome.txt		neat.txt		thefourthfile.txt
+iamcool.txt		something
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls something/
+awesome.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cp -r something newplace
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls newplace/
+awesome.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$
+
+55.12.1 Do this
+
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ mv awesome.txt uncool.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+iamcool.txt		newplace		thefourthfile.txt
+neat.txt		something		uncool.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ mv newplace oldplace
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+iamcool.txt		oldplace		thefourthfile.txt
+neat.txt		something		uncool.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ mv oldplace newplace
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+iamcool.txt		newplace		thefourthfile.txt
+neat.txt		something		uncool.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$
+
+55.12.3 Do More
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ cd temp
+-bash: cd: temp: No such file or directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+iamcool.txt		newplace		thefourthfile.txt
+neat.txt		something		uncool.txt
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ move newplace uncool.txt
+-bash: move: command not found
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ move newplace something
+-bash: move: command not found
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ mv newplace uncool.txt
+mv: rename newplace to uncool.txt: Not a directory
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ mv uncool.txt newplace
+(base) chiefjoe-10-216-1-21:icecream RickyThai$ ls
+iamcool.txt		newplace		thefourthfile.txt
+neat.txt		something
+(base) chiefjoe-10-216-1-21:icecream RickyThai$
+
+55.13.1 Do This
+(base) wless-user-172019013126:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) wless-user-172019013126:temp RickyThai$ less test.txt
+(base) wless-user-172019013126:temp RickyThai$
+
+55.13.3 Do More
+(base) wless-user-172019013126:temp RickyThai$ less test.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100 line copy text 100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text
+
+100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text100 line copy text
+test.txt (END)
+
+55.14.1
+(base) wless-user-172019013126:temp RickyThai$ cat test2.txt
+I am a fun guy.
+Don't you know why?
+Because I make poems,
+that make babies cry.(base) wless-user-172019013126:temp RickyThai$
+
+that make babies cry.(base) wless-user-172019013126:temp RickyThai$ cat test.txt
+Hi there, this is cool!
+(base) wless-user-172019013126:temp RickyThai$
+
+(base) wless-user-172019013126:temp RickyThai$ more test2.txt
+I am a fun guy.
+Don't you know why?
+Because I make poems,
+that make babies cry.
+
+(base) wless-user-172019013126:temp RickyThai$ cat test2.txt
+I am a fun guy.
+Don't you know why?
+Because I make poems,
+that make babies cry.(base) wless-user-172019013126:temp RickyThai$
+
+that make babies cry.(base) wless-user-172019013126:temp RickyThai$ cat test.txt
+Hi there, this is cool!
+
+55.14.3
+(base) wless-user-172019013126:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) wless-user-172019013126:temp RickyThai$ touch ricky trial
+(base) wless-user-172019013126:temp RickyThai$ touch ricky.txt
+(base) wless-user-172019013126:temp RickyThai$ cat ricky.txt
+Ricky is ricky
+ricky is 22
+22 is the best number
+ricky is ricky
+
+(base) wless-user-172019013126:temp RickyThai$ less ricky.txt
+
+Ricky is ricky
+ricky is 22
+22 is the best number
+ricky is ricky
+ricky.txt (END)
+
+55.15.1
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) wless-user-172019013126:~ RickyThai$ cd temp
+(base) wless-user-172019013126:temp RickyThai$ ls
+awesome.txt	ricky		test.rtf	trial
+i		ricky.txt	test.txt	uncool.txt
+iamcool.txt	stuff		test2.txt
+(base) wless-user-172019013126:temp RickyThai$ rm uncool.txt
+(base) wless-user-172019013126:temp RickyThai$ ls
+awesome.txt	iamcool.txt	ricky.txt	test.rtf	test2.txt
+i		ricky		stuff		test.txt	trial
+(base) wless-user-172019013126:temp RickyThai$ rm iamcool.txt neat.txt the fourthfile.txt
+rm: neat.txt: No such file or directory
+rm: the: No such file or directory
+rm: fourthfile.txt: No such file or directory
+(base) wless-user-172019013126:temp RickyThai$ ls
+awesome.txt	ricky		stuff		test.txt	trial
+i		ricky.txt	test.rtf	test2.txt
+(base) wless-user-172019013126:temp RickyThai$ pwd
+/Users/RickyThai/temp
+(base) wless-user-172019013126:temp RickyThai$ mkdir something
+(base) wless-user-172019013126:temp RickyThai$ ls
+awesome.txt	ricky		something	test.rtf	test2.txt
+i		ricky.txt	stuff		test.txt	trial
+(base) wless-user-172019013126:temp RickyThai$ cp -r something newplace
+(base) wless-user-172019013126:temp RickyThai$ rm something/awesome.txt
+rm: something/awesome.txt: No such file or directory
+(base) wless-user-172019013126:temp RickyThai$ rmdir something
+(base) wless-user-172019013126:temp RickyThai$ rm -rf newplace
+(base) wless-user-172019013126:temp RickyThai$ ls
+awesome.txt	ricky		stuff		test.txt	trial
+i		ricky.txt	test.rtf	test2.txt
+(base) wless-user-172019013126:temp RickyThai$
+
+55.15.3
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) wless-user-172019013126:~ RickyThai$ cd temp
+(base) wless-user-172019013126:temp RickyThai$ ls
+awesome.txt	ricky		stuff		test.txt	trial
+i		ricky.txt	test.rtf	test2.txt
+(base) wless-user-172019013126:temp RickyThai$ rmdir awesome.txt ricky stuff test.txt trial i ricky.txt test.rtf test2.txt
+rmdir: awesome.txt: Not a directory
+rmdir: ricky: Not a directory
+rmdir: stuff: Directory not empty
+rmdir: test.txt: Not a directory
+rmdir: trial: Not a directory
+rmdir: i: Directory not empty
+rmdir: ricky.txt: Not a directory
+rmdir: test.rtf: Not a directory
+rmdir: test2.txt: Not a directory
+(base) wless-user-172019013126:temp RickyThai$ ls
+awesome.txt	ricky		stuff		test.txt	trial
+i		ricky.txt	test.rtf	test2.txt
+(base) wless-user-172019013126:temp RickyThai$ rmricky.txt awesome.txt test.rtf test.txt test2.txt
+-bash: rmricky.txt: command not found
+(base) wless-user-172019013126:temp RickyThai$ rmricky.txt awesome.txt test.rtf test.txt test2.txtrmricky.txt awesome.txt test.rtf test.txt test2.txt
+-bash: rmricky.txt: command not found
+(base) wless-user-172019013126:temp RickyThai$ rm ricky.txt awesome.txt test.rtf test.txt test2.txt
+(base) wless-user-172019013126:temp RickyThai$ ls
+i	ricky	stuff	trial
+(base) wless-user-172019013126:temp RickyThai$ rmdir ricky stuff trial i
+rmdir: ricky: Not a directory
+rmdir: stuff: Directory not empty
+rmdir: trial: Not a directory
+rmdir: i: Directory not empty
+(base) wless-user-172019013126:temp RickyThai$ ls
+i	ricky	stuff	trial
+(base) wless-user-172019013126:temp RickyThai$
+
+55.16.1
+(base) wless-user-172019013126:temp RickyThai$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
